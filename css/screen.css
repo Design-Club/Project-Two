@@ -72,6 +72,59 @@ textarea{
 }
 /* END CONTACT PAGE CODE */
 
+/*ABOUT PAGE CODE STARTS*/
+.description{
+  text-align:center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.icons, .members {
+  display: flex;
+}
+figure {
+  text-align: center;
+}
+figure.philosophy, figure.diversity, figure.justice {
+  text-align: center;
+  padding: 20px;
+}
+figure.philosophy {
+  padding-left:20em;
+}
+.objectives {
+  text-align:center;
+}
+.founders{
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  font-size: 30px;
+}
+.list {
+  list-style-type: circle;
+}
+figcaption,.description {
+  padding-bottom: 20px;
+}
+.button1, .button2 {
+  font-family: Georgia, Lora, serif;
+  font-size: 16px;
+  padding: 0.2em;
+  width: 7em;
+  border: none;
+  background-color: #BEBEBE;
+  color: #000000;
+}
+/*ABOUT PAGE CSS ENDS*/
+
+
+@media only screen and (min-width: 480px) {
+
+  html{
+    width:100%;
+  }
+
+
 @media only screen and (min-width: 480px) {
   
   html{
@@ -92,6 +145,21 @@ textarea{
     padding: 20px;
     width:50%;
   }
+
+
+  #inputArea li{
+    padding: 10px;
+  }
+
+  #inputArea li input{
+    width: 20em;
+  }
+
+  textArea
+
+
+  /* END CONTACT PAGE CODE */
+}
   
   #inputArea li{
     padding: 10px;
