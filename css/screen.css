@@ -3,6 +3,7 @@ html {
   font-family: Georgia, Lora, serif;
   font-size: 18px;
   padding: 30px;
+  width:480px;
 }
 h1 {
   font-size: 40px;
@@ -60,7 +61,7 @@ form {
   border-radius: 2px;
   padding-left: 3px;
   padding:5px;
-  width:50vw;
+  width:250px;
 }
 
 textarea{
@@ -72,10 +73,36 @@ textarea{
 /* END CONTACT PAGE CODE */
 
 @media only screen and (min-width: 480px) {
+  
+  html{
+    width:100%;
+  }
+  
+  #inputArea li input{
+    width: 50vw;
+  }
 
 
 }
 
 @media only screen and (min-width: 768px){
-
+  /* CONTACT PAGE CODE */
+  #inputArea{
+    text-align:left;
+    padding: 20px;
+    width:50%;
+  }
+  
+  #inputArea li{
+    padding: 10px;
+  }
+  
+  #inputArea li input{
+    width: 20em;
+  }
+  
+  textArea
+  
+  
+  /* END CONTACT PAGE CODE */
 }
