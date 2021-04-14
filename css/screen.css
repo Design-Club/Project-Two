@@ -1,0 +1,36 @@
+html {
+  line-height: 1.618em;
+  font-family: Georgia, Lora, serif;
+  font-size: 18px;
+  padding: 30px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+.nav a {
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  background: gray;
+  color: #000000;
+}
+.nav a:hover{
+  background: #666666;
+}
+.nav li {
+  float:left;
+  width: 25%;
+  text-align: center;
+}
+.nav {
+  padding-top: 2.5em;
+  padding-bottom: 3.5em;
+}
