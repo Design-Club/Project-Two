@@ -3,6 +3,7 @@ html {
   font-family: Georgia, Lora, serif;
   font-size: 18px;
   padding: 30px;
+  width:480px;
 }
 h1 {
   font-size: 40px;
@@ -34,6 +35,7 @@ h3 {
   padding-top: 2.5em;
   padding-bottom: 3.5em;
 }
+
 /* CONTACT PAGE CODE */
 form {
   margin-top:2em;
@@ -69,6 +71,7 @@ textarea{
   padding-left: 3px;
 }
 /* END CONTACT PAGE CODE */
+
 /*ABOUT PAGE CODE STARTS*/
 .description{
   text-align:center;
@@ -121,6 +124,13 @@ figcaption,.description {
     width:100%;
   }
 
+
+@media only screen and (min-width: 480px) {
+  
+  html{
+    width:100%;
+  }
+  
   #inputArea li input{
     width: 50vw;
   }
@@ -136,6 +146,7 @@ figcaption,.description {
     width:50%;
   }
 
+
   #inputArea li{
     padding: 10px;
   }
@@ -147,5 +158,19 @@ figcaption,.description {
   textArea
 
 
+  /* END CONTACT PAGE CODE */
+}
+  
+  #inputArea li{
+    padding: 10px;
+  }
+  
+  #inputArea li input{
+    width: 20em;
+  }
+  
+  textArea
+  
+  
   /* END CONTACT PAGE CODE */
 }
