@@ -1,8 +1,9 @@
 html {
-  line-height: 1.618em;
+  /* line-height: 1.618em; */
+  line-height:2em;
   font-family: Georgia, Lora, serif;
   font-size: 18px;
-  padding: 30px;
+  padding: 10px 0 10px 0;
   width:480px;
 }
 h1 {
@@ -39,14 +40,17 @@ h3 {
 /* CONTACT PAGE CODE */
 form {
   margin-top:2em;
+  text-align:center;
 }
 
 #contactHeader{
   margin-top: 1em;
+  text-align:center;
 }
 
 #inputArea {
   background:url("../media/plato-2.jpg");
+  background-position: 50% 0;
   background-repeat:no-repeat;
   text-align: center;
 }
@@ -57,18 +61,29 @@ form {
 
 #inputArea li input{
   border: none;
-  background-color: lightgrey;
+  background: rgb(255, 255, 255, 0.8);
   border-radius: 2px;
   padding-left: 3px;
   padding:5px;
-  width:250px;
+  width:300px;
 }
 
 textarea{
   border: none;
-  background-color: lightgrey;
+  background: rgb(255, 255, 255, 0.8);
   border-radius: 2px;
   padding-left: 3px;
+  width: 305px;
+}
+
+#submit{
+  width:300px;
+  margin-top:10px;
+  padding: 10px;
+  background-color:lightgrey;
+  border-style: groove;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px;
 }
 /* END CONTACT PAGE CODE */
 
@@ -130,20 +145,57 @@ figcaption,.description {
   html{
     width:100%;
   }
+  /* CONTACT PAGE CODE */
+  #contactP{
+    line-height: 1em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  #inputArea{
+    text-align: center;
+    height: 300px;
+  }
+  
+  #inputArea li{
+    padding: 10px
+  }
   
   #inputArea li input{
-    width: 50vw;
+    width: 300px;
   }
-
+  
+  textarea{
+    width:305px;
+  }
+  /* END CONTACT PAGE CODE*/
 
 }
 
 @media only screen and (min-width: 768px){
   /* CONTACT PAGE CODE */
+  form{
+    text-align:left;
+    padding-left: 15px;
+  } 
+  
+  #contactP{
+    line-height: 1em;
+    padding-bottom: 10px;
+  }
+  
+  #contactHeader{ 
+    text-align: left;
+    padding-left:15px;
+  }
+  
   #inputArea{
     text-align:left;
     padding: 20px;
     width:50%;
+    height:350px;
+    border: 2px ;
+    border-style:groove;
   }
 
 
@@ -162,15 +214,24 @@ figcaption,.description {
 }
   
   #inputArea li{
-    padding: 10px;
+    padding: 20px;
   }
   
   #inputArea li input{
     width: 20em;
   }
   
-  textArea
+  textArea{
+    min-width: 365px;
+    width:75%;
+  }
   
+  #submitDiv {
+    padding-left: 45px;
+  }
   
+  #submit {
+    width: 200px;
+  }
   /* END CONTACT PAGE CODE */
 }
