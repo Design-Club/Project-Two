@@ -34,41 +34,6 @@ h3 {
   padding-top: 2.5em;
   padding-bottom: 3.5em;
 }
-/* CONTACT PAGE CODE */
-form {
-  margin-top:2em;
-}
-
-#contactHeader{
-  margin-top: 1em;
-}
-
-#inputArea {
-  background:url("../media/plato-2.jpg");
-  background-repeat:no-repeat;
-  text-align: center;
-}
-
-#inputArea li{
-  padding: 5px;
-}
-
-#inputArea li input{
-  border: none;
-  background-color: lightgrey;
-  border-radius: 2px;
-  padding-left: 3px;
-  padding:5px;
-  width:250px;
-}
-
-textarea{
-  border: none;
-  background-color: lightgrey;
-  border-radius: 2px;
-  padding-left: 3px;
-}
-/* END CONTACT PAGE CODE */
 /*ABOUT PAGE CODE STARTS*/
 .description{
   text-align:center;
