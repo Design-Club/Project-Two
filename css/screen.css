@@ -92,7 +92,7 @@ textarea{
   html{
     width:100%;
   }
-  
+  /* CONTACT PAGE CODE */
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
@@ -115,7 +115,7 @@ textarea{
   textarea{
     width:305px;
   }
-
+  /* END CONTACT PAGE CODE*/
 
 }
 
@@ -165,7 +165,5 @@ textarea{
   #submit {
     width: 200px;
   }
-  
-  
   /* END CONTACT PAGE CODE */
 }
