@@ -44,6 +44,12 @@ form {
   margin-top: 1em;
 }
 
+#inputArea {
+  background:url("../media/plato-2.jpg");
+  background-repeat:no-repeat;
+  text-align: center;
+}
+
 #inputArea li{
   padding: 5px;
 }
@@ -53,6 +59,8 @@ form {
   background-color: lightgrey;
   border-radius: 2px;
   padding-left: 3px;
+  padding:5px;
+  width:50vw;
 }
 
 textarea{
@@ -60,5 +68,14 @@ textarea{
   background-color: lightgrey;
   border-radius: 2px;
   padding-left: 3px;
-  
+}
+/* END CONTACT PAGE CODE */
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px){
+
 }
