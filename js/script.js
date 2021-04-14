@@ -7,10 +7,9 @@ function incompSub(){
   var inName = document.getElementById("nameInput").value;
   var inEmail = document.getElementById("emailInput").value;
   var inSubject = document.getElementById("subjectInput").value;
-  var inMessage = document.getElementById("messageInput").value;
   
   
-  if ((inName == "") || (inEmail == "") || (inSubject == "") || (inMessage == "")){
+  if ((inName == "") || (inEmail == "") || (inSubject == "")){}
     alert("Fill out all the required info to become an active member in the ISUD.");
   }
   else {
