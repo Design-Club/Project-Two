@@ -1,19 +1,25 @@
+/* Navigation Bar Code */
+
 html {
   line-height: 1.618em;
   font-family: Georgia, Lora, serif;
   font-size: 18px;
   padding: 30px;
 }
+
 h1 {
   font-size: 40px;
   text-align: center;
 }
+
 h2 {
   font-size: 35px;
 }
+
 h3 {
   font-size: 25px;
 }
+
 .nav a {
   font-size: 20px;
   padding: 10px;
@@ -22,53 +28,238 @@ h3 {
   background: gray;
   color: #000000;
 }
-.nav a:hover{
+
+.nav a:hover {
   background: #666666;
 }
+
 .nav li {
-  float:left;
+  float: left;
   width: 25%;
   text-align: center;
 }
+
 .nav {
   padding-top: 2.5em;
   padding-bottom: 3.5em;
 }
+
+
+/* Homepage CSS Code Starts */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.index {
+  text-align: left;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.border {
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* slideshow code */
+.container {
+  margin: 50px auto;
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+  border: 10px solid;
+  border-top-color: #856036;
+  border-left-color: #5d4426;
+  border-bottom-color: #856036;
+  border-right-color: #5d4426;
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) {
+  animation-delay: 16s;
+  width: 500px;
+  height: 350px;
+}
+
+img:nth-child(2) {
+  animation-delay: 12s;
+  width: 500px;
+  height: 300px;
+}
+
+img:nth-child(3) {
+  animation-delay: 8s;
+  width: 450px;
+  height: 300px;
+}
+
+img:nth-child(4) {
+  animation-delay: 4s;
+  width: 500px;
+  height: 350px;
+}
+
+img:nth-child(5) {
+  animation-delay: 0s;
+  width: 500px;
+  height: 350px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  /* height: 300px; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Video code */
+.video_block {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.site_link {
+  text-align: center;
+  padding: 10px;
+  margin-right: 150px;
+  text-justify: auto;
+}
+
+/*Homepage CSS Code Ends*/
+
+/* CONTACT PAGE CODE */
+
+form {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#contactHeader {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#inputArea {
+  background: url("../media/plato-2.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#inputArea li {
+  padding: 5px;
+}
+
+#inputArea li input {
+  border: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-radius: 2px;
+  padding-left: 3px;
+  padding: 5px;
+  width: 300px;
+}
+
+textarea {
+  border: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-radius: 2px;
+  padding-left: 3px;
+  width: 305px;
+}
+
+#submit {
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-style: groove;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px;
+}
+
+/* END CONTACT PAGE CODE */
+
+
 /*ABOUT PAGE CODE STARTS*/
-.description{
-  text-align:center;
+
+.description {
+  text-align: center;
   padding-left: 5em;
   padding-right: 5em;
 }
-.icons, .members {
+
+.icons,
+.members {
   display: flex;
 }
+
 figure {
   text-align: center;
 }
-figure.philosophy, figure.diversity, figure.justice {
+
+figure.philosophy,
+figure.diversity,
+figure.justice {
   text-align: center;
   padding: 20px;
 }
+
 figure.philosophy {
-  padding-left:20em;
+  padding-left: 20em;
 }
+
 .objectives {
-  text-align:center;
+  text-align: center;
 }
-.founders{
+
+.founders {
   padding-top: 2em;
   padding-bottom: 1.5em;
   text-align: center;
   font-size: 30px;
 }
+
 .list {
   list-style-type: circle;
 }
-figcaption,.description {
+
+figcaption,
+.description {
   padding-bottom: 20px;
 }
-.button1, .button2 {
+
+.button1,
+.button2 {
   font-family: Georgia, Lora, serif;
   font-size: 16px;
   padding: 0.2em;
@@ -77,40 +268,90 @@ figcaption,.description {
   background-color: #BEBEBE;
   color: #000000;
 }
+
 /*ABOUT PAGE CSS ENDS*/
 
-
 @media only screen and (min-width: 480px) {
-
-  html{
-    width:100%;
+  html {
+    width: 100%;
   }
-
-  #inputArea li input{
-    width: 50vw;
+	
+  /* CONTACT PAGE CODE */
+	
+  #contactP {
+    line-height: 1em;
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
-
-
+	
+  #inputArea {
+    text-align: center;
+    height: 300px;
+  }
+	
+  #inputArea li {
+    padding: 10px
+  }
+	
+  #inputArea li input {
+    width: 300px;
+  }
+	
+  textarea {
+    width: 305px;
+  }
 }
 
-@media only screen and (min-width: 768px){
-  /* CONTACT PAGE CODE */
-  #inputArea{
-    text-align:left;
+/* END CONTACT PAGE CODE*/
+
+/* CONTACT PAGE CODE */
+
+@media only screen and (min-width: 768px) {
+  form {
+    text-align: left;
+    padding-left: 15px;
+  }
+	
+  #contactP {
+    line-height: 1em;
+    padding-bottom: 10px;
+  }
+	
+  #contactHeader {
+    text-align: left;
+    padding-left: 15px;
+  }
+	
+  #inputArea {
+    text-align: left;
     padding: 20px;
-    width:50%;
+    width: 50%;
+    height: 350px;
+    border: 2px;
+    border-style: groove;
   }
 
-  #inputArea li{
+	
+  #inputArea li {
     padding: 10px;
   }
-
-  #inputArea li input{
+	
+  #inputArea li input {
     width: 20em;
   }
-
-  textArea
-
-
-  /* END CONTACT PAGE CODE */
+	
+  textArea {
+    min-width: 365px;
+    width: 75%;
+  }
+	
+  #submitDiv {
+    padding-left: 45px;
+  }
+	
+  #submit {
+    width: 200px;
+  }
 }
+
+/* END CONTACT PAGE CODE */
