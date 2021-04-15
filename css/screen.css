@@ -104,32 +104,3 @@ figcaption,
   color: #000000;
 
 }
-.container {
-  margin: 50px auto;
-  width: 500px;
-  height: 350px;
-  overflow: hidden;
-  border: 10px solid;
-  border-top-color: #856036;
-  border-left-color: #5d4426;
-  border-bottom-color: #856036;
-  border-right-color: #5d4426;
-  position: relative;
-}
-
-.photo {
-  position: absolute;
-  animation: round 16s infinite;
-  opacity: 0;
-}
-
-@keyframes round {
-  25% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-  }
-}
-
-/*ABOUT PAGE CSS ENDS*/
