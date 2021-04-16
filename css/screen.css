@@ -88,8 +88,7 @@ figcaption,
   padding-bottom: 20px;
 }
 
-.button1,
-.button2 {
+.button {
   font-family: Georgia, Lora, serif;
   font-size: 16px;
   padding: 0.4em;
@@ -98,18 +97,11 @@ figcaption,
   background-color: #BEBEBE;
   color: #000000;
 }
-.button1 a, .button2 a {
-  text-decoration: none;
-  color: #000000;
-
+.center {
+  display: flex;
+  justify-content: center;
 }
 /* Homepage CSS Code Starts */
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  display: block
-}
 
 .index {
   text-align: left;
