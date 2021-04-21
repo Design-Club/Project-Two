@@ -8,6 +8,7 @@ html {
 h1 {
   font-size: 40px;
   text-align: center;
+  line-height: 1.2em;
 }
 
 h2 {
@@ -30,16 +31,12 @@ h3 {
 .nav a:hover {
   background: #666666;
 }
-
 .nav li {
-  float: left;
-  width: 25%;
   text-align: center;
 }
-
 .nav {
   padding-top: 2.5em;
-  padding-bottom: 3.5em;
+  padding-bottom: 6em;
 }
 /*ABOUT PAGE CODE STARTS*/
 .description {
@@ -48,13 +45,9 @@ h3 {
   padding-right: 5em;
 }
 
-.icons,
-.members {
+.rowflex {
   display: flex;
-}
-
-figure {
-  text-align: center;
+  justify-content: center;
 }
 
 figure.philosophy,
@@ -63,9 +56,8 @@ figure.justice {
   text-align: center;
   padding: 20px;
 }
-
-figure.philosophy {
-  padding-left: 20em;
+.members {
+  text-align: center;
 }
 
 .objectives {
@@ -101,6 +93,7 @@ figcaption,
   display: flex;
   justify-content: center;
 }
+
 /* Homepage CSS Code Starts */
 
 .index {
@@ -264,6 +257,22 @@ textarea{
   html{
     width:100%;
   }
+  .nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  .nav {
+    padding-bottom: 5em;
+  }
+  /* About code */
+  img {
+    max-width: 100%;
+  }
+  .description {
+    padding-top: 2em;
+  }
+  /*About code end */
   /* CONTACT PAGE CODE */
   #contactP{
     line-height: 1em;
@@ -292,6 +301,18 @@ textarea{
 }
 
 @media only screen and (min-width: 768px){
+  /*ABOUT PAGE CODE */
+  img {
+    max-width: none;
+  }
+  .mainflex {
+    display: flex;
+    justify-content: center;
+  }
+  .members {
+    display: flex;
+  }
+  /* ABOUT PAGE ENDS */
   /* CONTACT PAGE CODE */
   form{
     text-align:left;
