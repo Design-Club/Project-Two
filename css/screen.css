@@ -1,21 +1,24 @@
 html {
-  /* line-height: 1.618em; */
-  line-height:2em;
+  line-height: 1.618em;
   font-family: Georgia, Lora, serif;
   font-size: 18px;
-  padding: 10px 0 10px 0;
-  width:480px;
+  padding: 30px;
 }
+
 h1 {
   font-size: 40px;
   text-align: center;
+  line-height: 1.2em;
 }
+
 h2 {
   font-size: 35px;
 }
+
 h3 {
   font-size: 25px;
 }
+
 .nav a {
   font-size: 20px;
   padding: 10px;
@@ -24,18 +27,178 @@ h3 {
   background: gray;
   color: #000000;
 }
-.nav a:hover{
+
+.nav a:hover {
   background: #666666;
 }
 .nav li {
-  float:left;
-  width: 25%;
   text-align: center;
 }
 .nav {
   padding-top: 2.5em;
-  padding-bottom: 3.5em;
+  padding-bottom: 6em;
 }
+/*ABOUT PAGE CODE STARTS*/
+.description {
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.rowflex {
+  display: flex;
+  justify-content: center;
+}
+
+figure.philosophy,
+figure.diversity,
+figure.justice {
+  text-align: center;
+  padding: 20px;
+}
+.members {
+  text-align: center;
+}
+
+.objectives {
+  text-align:center;
+}
+
+.founders {
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  font-size: 30px;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+figcaption,
+.description {
+  padding-bottom: 20px;
+}
+
+.button {
+  font-family: Georgia, Lora, serif;
+  font-size: 16px;
+  padding: 0.4em;
+  width: 7.2em;
+  border: none;
+  background-color: #BEBEBE;
+  color: #000000;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Homepage CSS Code Starts */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.index {
+  text-align: left;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.border {
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow & Video border code */
+.container {
+  margin: 50px auto;
+  width: 600px;
+  height: 450px;
+  overflow: hidden;
+  display: block;
+  border: 10px solid;
+  border-top-color: #856036;
+  border-left-color: #5d4426;
+  border-bottom-color: #856036;
+  border-right-color: #5d4426;
+  position: relative;
+}
+
+/* Slideshow code */
+.photo {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img.photo:nth-child(1) {
+  animation-delay: 16s;
+  width: 600px;
+  height: 450px;
+}
+
+img.photo:nth-child(2) {
+  animation-delay: 12s;
+  width: 600px;
+  height: 425px;
+}
+
+img.photo:nth-child(3) {
+  animation-delay: 8s;
+  width: 550px;
+  height: 400px;
+}
+
+img.photo:nth-child(4) {
+  animation-delay: 4s;
+  width: 600px;
+  height: 450px;
+}
+
+img.photo:nth-child(5) {
+  animation-delay: 0s;
+  width: 600px;
+  height: 425px;
+}	
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 310px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+/* Site link code */
+.site_link {
+  text-align: center;
+  margin-right: 150px;
+  text-justify: auto;
+  font-weight: bold;
+}
+/*Homepage CSS Code Ends*/
 
 /* CONTACT PAGE CODE */
 form {
@@ -86,78 +249,48 @@ textarea{
   box-shadow: 2px 2px 2px;
 }
 /* END CONTACT PAGE CODE */
-
-/*ABOUT PAGE CODE STARTS*/
-.description{
-  text-align:center;
-  padding-left: 5em;
-  padding-right: 5em;
-}
-.icons, .members {
-  display: flex;
-}
-figure {
-  text-align: center;
-}
-figure.philosophy, figure.diversity, figure.justice {
-  text-align: center;
-  padding: 20px;
-}
-figure.philosophy {
-  padding-left:20em;
-}
-.objectives {
-  text-align:center;
-}
-.founders{
-  padding-top: 2em;
-  padding-bottom: 1.5em;
-  text-align: center;
-  font-size: 30px;
-}
-.list {
-  list-style-type: circle;
-}
-figcaption,.description {
-  padding-bottom: 20px;
-}
-.button1, .button2 {
-  font-family: Georgia, Lora, serif;
-  font-size: 16px;
-  padding: 0.2em;
-  width: 7em;
-  border: none;
-  background-color: #BEBEBE;
-  color: #000000;
-}
-/*ABOUT PAGE CSS ENDS*/
-
-
 @media only screen and (min-width: 480px) {
-  
+
   html{
     width:100%;
   }
+  .nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  .nav {
+    padding-bottom: 5em;
+  }
+  /* About code */
+  img {
+    max-width: 100%;
+  }
+  .description {
+    padding-top: 2em;
+  }
+  /*About code end */
+  
   /* CONTACT PAGE CODE */
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
     padding-left: 10px;
   }
-  
+
   #inputArea{
     text-align: center;
     height: 300px;
   }
-  
+
   #inputArea li{
     padding: 10px
   }
-  
+
   #inputArea li input{
     width: 300px;
   }
-  
+
   textarea{
     width:305px;
   }
@@ -166,22 +299,35 @@ figcaption,.description {
 }
 
 @media only screen and (min-width: 768px){
+  /*ABOUT PAGE CODE */
+  img {
+    max-width: none;
+  }
+  .mainflex {
+    display: flex;
+    justify-content: center;
+  }
+  .members {
+    display: flex;
+  }
+  /* ABOUT PAGE ENDS */
+  
   /* CONTACT PAGE CODE */
   form{
     text-align:left;
     padding-left: 15px;
-  } 
-  
+  }
+
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
   }
-  
-  #contactHeader{ 
+
+  #contactHeader{
     text-align: left;
     padding-left:15px;
   }
-  
+
   #inputArea{
     text-align:left;
     padding: 20px;
@@ -190,7 +336,6 @@ figcaption,.description {
     border: 2px ;
     border-style:groove;
   }
-
 
   #inputArea li{
     padding: 10px;
@@ -204,15 +349,14 @@ figcaption,.description {
     min-width: 365px;
     width:75%;
   }
-  
+
   #submitDiv {
     padding-left: 45px;
   }
-  
+
   #submit {
     width: 200px;
   }
-
 
   /* END CONTACT PAGE CODE */
 }
