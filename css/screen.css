@@ -216,10 +216,18 @@ form {
   background-position: 50% 0;
   background-repeat:no-repeat;
   text-align: center;
+  min-height: 467px;
+  max-height: 467px;
+}
+
+#inputArea ul {
+  height: 81%;
+  padding: 0 0 68px 0;
 }
 
 #inputArea li{
   padding: 5px;
+  height:25%;
 }
 
 #inputArea li input{
@@ -229,6 +237,7 @@ form {
   padding-left: 3px;
   padding:5px;
   width:300px;
+  height:40px;
 }
 
 textarea{
@@ -283,17 +292,22 @@ textarea{
     text-align: center;
     height: 300px;
   }
+  
+  #inputArea ul {
+    height:81%;
+  }
 
   #inputArea li{
-    padding: 10px
+    padding: 10px;
+    height:22%;
   }
 
   #inputArea li input{
-    width: 300px;
+    width: 350px;
   }
 
   textarea{
-    width:305px;
+    width:346px;
   }
   /* END CONTACT PAGE CODE*/
 
@@ -322,6 +336,7 @@ textarea{
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
+    width: 60%;
   }
 
   #contactHeader{
@@ -332,10 +347,15 @@ textarea{
   #inputArea{
     text-align:left;
     padding: 20px;
+    min-width: 447px;
     width:60%;
     height:350px;
     border: 2px ;
     border-style:groove;
+  }
+  
+  #inputArea ul{
+    padding-bottom: 0px;
   }
 
   #inputArea li{
