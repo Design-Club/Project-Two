@@ -227,6 +227,7 @@ form {
 
 #formp {
   color: lightgrey;
+  padding: 0 5px;
 }
 
 #inputArea ul {
@@ -356,7 +357,7 @@ textarea{
   #inputArea{
     text-align:left;
     padding: 20px;
-    min-width: 447px;
+    min-width: 452px;
     width:60%;
     height:350px;
     border: 2px ;
