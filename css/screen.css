@@ -220,6 +220,15 @@ form {
   max-height: 467px;
 }
 
+#formh3 {
+  color: white;
+  padding-top: 1em;
+}
+
+#formp {
+  color: lightgrey;
+}
+
 #inputArea ul {
   height: 81%;
   padding: 0 0 68px 0;
