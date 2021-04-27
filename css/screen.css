@@ -36,7 +36,7 @@ h3 {
 }
 .nav {
   padding-top: 2.5em;
-  padding-bottom: 6em;
+  padding-bottom: 2.5em;
 }
 /*ABOUT PAGE CODE STARTS*/
 .description {
@@ -207,7 +207,7 @@ form {
 }
 
 #contactHeader{
-  margin-top: 1em;
+  margin-top: 0px;
   text-align:center;
 }
 
@@ -260,6 +260,7 @@ textarea{
     text-align: center;
   }
   .nav {
+    padding-top: 2.5em;
     padding-bottom: 5em;
   }
   /* About code */
@@ -275,7 +276,7 @@ textarea{
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   #inputArea{
@@ -331,7 +332,7 @@ textarea{
   #inputArea{
     text-align:left;
     padding: 20px;
-    width:50%;
+    width:60%;
     height:350px;
     border: 2px ;
     border-style:groove;
@@ -342,7 +343,9 @@ textarea{
   }
 
   #inputArea li input{
-    width: 20em;
+    width: 100%;
+    max-width: 20em;
+    
   }
 
   textArea{
@@ -351,7 +354,7 @@ textarea{
   }
 
   #submitDiv {
-    padding-left: 45px;
+    padding-left: 0px;
   }
 
   #submit {
