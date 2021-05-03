@@ -11,9 +11,9 @@ function submitFunc() {
   var inName = document.getElementById("nameInput").value;
   var inEmail = document.getElementById("emailInput").value;
   var inSubject = document.getElementById("subjectInput").value;
-
-
-  if ((inName == "") || (inEmail == "") || (inSubject == ""))
+  
+  
+  if ((inName == "") || (inEmail == "") || (inSubject == "")) 
     alert("Fill out all the required info to become an active member in the ISUD.");
 
   else

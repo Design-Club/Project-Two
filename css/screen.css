@@ -36,7 +36,7 @@ h3 {
 }
 .nav {
   padding-top: 2.5em;
-  padding-bottom: 6em;
+  padding-bottom: 2.5em;
 }
 /*ABOUT PAGE CODE STARTS*/
 .description {
@@ -95,6 +95,11 @@ figcaption,
 }
 
 /* Homepage CSS Code Starts */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
 
 .index {
   text-align: left;
@@ -109,13 +114,13 @@ figcaption,
   box-sizing: border-box;
 }
 
-/* slideshow code */
-
+/* Slideshow & Video border code */
 .container {
   margin: 50px auto;
-  width: 500px;
-  height: 350px;
+  width: 600px;
+  height: 450px;
   overflow: hidden;
+  display: block;
   border: 10px solid;
   border-top-color: #856036;
   border-left-color: #5d4426;
@@ -124,6 +129,7 @@ figcaption,
   position: relative;
 }
 
+/* Slideshow code */
 .photo {
   position: absolute;
   animation: round 16s infinite;
@@ -141,66 +147,57 @@ figcaption,
 
 img.photo:nth-child(1) {
   animation-delay: 16s;
-  width: 500px;
-  height: 350px;
+  width: 600px;
+  height: 450px;
 }
 
 img.photo:nth-child(2) {
   animation-delay: 12s;
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 425px;
 }
 
 img.photo:nth-child(3) {
   animation-delay: 8s;
-  width: 450px;
-  height: 300px;
+  width: 550px;
+  height: 400px;
 }
 
 img.photo:nth-child(4) {
   animation-delay: 4s;
-  width: 500px;
-  height: 350px;
+  width: 600px;
+  height: 450px;
 }
 
 img.photo:nth-child(5) {
   animation-delay: 0s;
-  width: 500px;
-  height: 350px;
-}
+  width: 600px;
+  height: 425px;
+}	
 
 /* Create three equal columns that floats next to each other */
-
 .column {
   float: left;
   width: 33%;
   padding: 10px;
-  /* height: 300px; */
+  height: 310px;
 }
 
 /* Clear floats after the columns */
-
 .row:after {
   content: "";
   display: table;
   clear: both;
+  text-align: center;
 }
 
-/* Video code */
-
-.video_block {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-}
-
+/* Site link code */
 .site_link {
   text-align: center;
-  padding: 10px;
   margin-right: 150px;
   text-justify: auto;
+  font-weight: bold;
 }
-
 /*Homepage CSS Code Ends*/
 
 /* CONTACT PAGE CODE */
@@ -210,7 +207,7 @@ form {
 }
 
 #contactHeader{
-  margin-top: 1em;
+  margin-top: 0px;
   text-align:center;
 }
 
@@ -219,10 +216,28 @@ form {
   background-position: 50% 0;
   background-repeat:no-repeat;
   text-align: center;
+  min-height: 467px;
+  max-height: 467px;
+}
+
+#formh3 {
+  color: white;
+  padding-top: 1em;
+}
+
+#formp {
+  color: lightgrey;
+  padding: 0 5px;
+}
+
+#inputArea ul {
+  height: 81%;
+  padding: 0 0 68px 0;
 }
 
 #inputArea li{
   padding: 5px;
+  height:25%;
 }
 
 #inputArea li input{
@@ -232,6 +247,7 @@ form {
   padding-left: 3px;
   padding:5px;
   width:300px;
+  height:40px;
 }
 
 textarea{
@@ -263,6 +279,7 @@ textarea{
     text-align: center;
   }
   .nav {
+    padding-top: 2.5em;
     padding-bottom: 5em;
   }
   /* About code */
@@ -273,28 +290,34 @@ textarea{
     padding-top: 2em;
   }
   /*About code end */
+  
   /* CONTACT PAGE CODE */
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   #inputArea{
     text-align: center;
     height: 300px;
   }
+  
+  #inputArea ul {
+    height:81%;
+  }
 
   #inputArea li{
-    padding: 10px
+    padding: 10px;
+    height:22%;
   }
 
   #inputArea li input{
-    width: 300px;
+    width: 350px;
   }
 
   textarea{
-    width:305px;
+    width:346px;
   }
   /* END CONTACT PAGE CODE*/
 
@@ -313,6 +336,7 @@ textarea{
     display: flex;
   }
   /* ABOUT PAGE ENDS */
+  
   /* CONTACT PAGE CODE */
   form{
     text-align:left;
@@ -322,6 +346,7 @@ textarea{
   #contactP{
     line-height: 1em;
     padding-bottom: 10px;
+    width: 60%;
   }
 
   #contactHeader{
@@ -332,19 +357,25 @@ textarea{
   #inputArea{
     text-align:left;
     padding: 20px;
-    width:50%;
+    min-width: 452px;
+    width:60%;
     height:350px;
     border: 2px ;
     border-style:groove;
   }
-
+  
+  #inputArea ul{
+    padding-bottom: 0px;
+  }
 
   #inputArea li{
     padding: 10px;
   }
 
   #inputArea li input{
-    width: 20em;
+    width: 100%;
+    max-width: 20em;
+    
   }
 
   textArea{
@@ -353,13 +384,12 @@ textarea{
   }
 
   #submitDiv {
-    padding-left: 45px;
+    padding-left: 0px;
   }
 
   #submit {
     width: 200px;
   }
-
 
   /* END CONTACT PAGE CODE */
 }
