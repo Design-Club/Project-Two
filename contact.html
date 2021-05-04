@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/script.js" async> </script>
 </head>
 <body id="contactBody">
@@ -19,12 +20,10 @@
         <li><a href="">Contact</a></li>
       </ul>
     </nav>
-  </header>
-  
+  </header>  
   <h2 id="contactHeader">Contact Us</h2>
-  
   <main id="contactMain">
-    <form method="get" action="#null" onsubmit="return incompSub()">
+    <form id="form" method="get" action="#null" autocomplete="on">
       <div id="inputArea">
         <h3 id="formh3">Thank you for your interest in ISUD</h3>
         <p id="formp">Join the discussion on the global stage. Contact us to coordinate a future event in an area near you.</p>
@@ -49,4 +48,4 @@
     </form>
   </main>
 </body>
-</html> 
+</html>
