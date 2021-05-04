@@ -278,6 +278,21 @@ textarea{
 #mediaLinks a{
   text-decoration: none;
 }
+
+#fbLogo {
+  width:22px;
+  height:25px;
+}
+
+#liLogo{
+  width:20px;
+  height:20px;
+}
+
+#gpLogo {
+  width:20px;
+  height:20px;
+}
 /* END CONTACT PAGE CODE */
 @media only screen and (min-width: 480px) {
 
