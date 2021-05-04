@@ -3,6 +3,7 @@ html {
   font-family: Georgia, Lora, serif;
   font-size: 18px;
   padding: 30px;
+  /*max-width:1440px;*/
 }
 
 h1 {
@@ -286,13 +287,18 @@ textarea{
 }
 
 #liLogo{
-  width:20px;
-  height:20px;
+  width:22px;
+  height:22px;
 }
 
 #gpLogo {
   width:20px;
   height:20px;
+}
+
+#pageFooter {
+  background: lightgrey;
+  width: 100%;
 }
 /* END CONTACT PAGE CODE */
 @media only screen and (min-width: 480px) {
@@ -351,6 +357,9 @@ textarea{
 }
 
 @media only screen and (min-width: 768px){
+  html{
+    max-width: 1440px;
+  }
   /*ABOUT PAGE CODE */
   img {
     max-width: none;
