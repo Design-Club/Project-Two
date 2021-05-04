@@ -258,6 +258,7 @@ textarea{
   padding-left: 3px;
   /*width: 305px;*/
   width: 95%;
+  
 }
 
 #submitId{
@@ -268,6 +269,10 @@ textarea{
   border-style: groove;
   border-radius: 4px;
   box-shadow: 2px 2px 2px;
+}
+
+#mediaLinks{
+  margin-top:10px;
 }
 /* END CONTACT PAGE CODE */
 @media only screen and (min-width: 480px) {
