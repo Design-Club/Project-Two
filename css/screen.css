@@ -288,10 +288,9 @@ textarea{
 }
 
 #pageFooter {
-  background: lightgrey;
-  width: 100%;
+  visibility: hidden;
+  display: none;
 }
-
 /* END CONTACT PAGE CODE */
 @media only screen and (min-width: 480px) {
 
@@ -344,6 +343,32 @@ textarea{
 
   textarea{
     width:346px;
+  }
+  
+  #pageFooter {
+    border-top: 2px solid;
+    visibility: visible;
+    background: white;
+    width: 100%;
+    padding:10px;
+    display: inline-block;
+    text-align:left;
+  }
+
+  #pageFooter th{
+    padding: 0 20px;
+    text-decoration: none;
+  }
+
+  #pageFooter a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+  } 
+
+  #colName {
+    font-weight: bold;
+    font-size: 0.9em;
   }
   /* END CONTACT PAGE CODE*/
 }
@@ -419,5 +444,6 @@ textarea{
   #submitId {
     width: 200px;
   }
+  
   /* END CONTACT PAGE CODE */
 }
