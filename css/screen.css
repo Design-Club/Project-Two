@@ -274,6 +274,10 @@ textarea{
 #mediaLinks{
   margin-top:10px;
 }
+
+#mediaLinks a{
+  text-decoration: none;
+}
 /* END CONTACT PAGE CODE */
 @media only screen and (min-width: 480px) {
 
