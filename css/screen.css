@@ -359,6 +359,7 @@ textarea{
     padding: 20px;
     min-width: 452px;
     width:60%;
+    max-width: 750px;
     height:350px;
     border: 2px ;
     border-style:groove;
