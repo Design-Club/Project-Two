@@ -6,6 +6,7 @@ html {
   font-size: 18px;
   padding: 30px;
   /*max-width:1440px;*/
+  background-color: grey;
 }
 
 h1 {
@@ -20,6 +21,11 @@ h2 {
 
 h3 {
   font-size: 25px;
+}
+
+.nav a{
+  border-top: solid;
+  border-bottom: solid;
 }
 
 .nav a {
@@ -348,15 +354,22 @@ textarea{
   #pageFooter {
     border-top: 2px solid;
     visibility: visible;
-    background: white;
+    background: grey;
     width: 100%;
     padding:10px;
     display: inline-block;
     text-align:left;
+    
+  }
+  
+  #pageFooter table{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #pageFooter th{
-    padding: 0 20px;
+    /*padding: 0 20px;*/
+    padding: 0 4vw;
     text-decoration: none;
   }
 
@@ -443,6 +456,10 @@ textarea{
 
   #submitId {
     width: 200px;
+  }
+  
+  #pageFooter th{
+    padding: 0 8vw;
   }
   
   /* END CONTACT PAGE CODE */
