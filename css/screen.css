@@ -1,16 +1,20 @@
 /* Navigation Bar & basic Html code */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Playfair+Display&display=swap');
 
 html {
   line-height: 1.618em;
-  font-family: Georgia, Lora, serif;
+  font-family: 'Times New Roman', serif;
   font-size: 18px;
   padding: 30px;
   /*max-width:1440px;*/
-  background-color: grey;
+  background-color: #F7D8BA;
 }
 
 h1 {
   font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #706254;
   text-align: center;
   line-height: 1.2em;
 }
@@ -33,14 +37,15 @@ h3 {
   padding: 10px;
   display: block;
   text-decoration: none;
-  background: gray;
+  background: #F7D8BA;
   color: #000000;
 }
 
 .nav a:hover {
   /*background: #666666;*/
-  border-top: solid white;
-  border-bottom: solid white;
+  border-top: solid #AB9084;
+  border-bottom: solid #AB9084;
+  color: #705F56;
 }
 .nav li {
   text-align: center;
@@ -265,9 +270,12 @@ textarea{
   width:300px;
   margin-top:10px;
   padding: 10px;
-  background-color:lightgrey;
-  border-style: groove;
-  border-radius: 4px;
+  background-color:#3B291A;
+  color: #F7D8BA;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  border-style: groove #6B5E41;
+  border-radius: 6px;
   box-shadow: 2px 2px 2px;
 }
 
@@ -356,7 +364,7 @@ textarea{
   #pageFooter {
     border-top: 2px solid;
     visibility: visible;
-    background: grey;
+    background: #F7D8BA;
     width: 100%;
     padding:10px;
     display: inline-block;
@@ -379,6 +387,7 @@ textarea{
     text-decoration: none;
     color: black;
     font-size: 0.9em;
+    color: #403830;
   } 
 
   #colName {
@@ -390,7 +399,7 @@ textarea{
 
 @media only screen and (min-width: 768px){
   html{
-    max-width: 1220px;
+    max-width: 1440px;
   }
   /*ABOUT PAGE CODE */
   img {
