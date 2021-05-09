@@ -38,7 +38,9 @@ h3 {
 }
 
 .nav a:hover {
-  background: #666666;
+  /*background: #666666;*/
+  border-top: solid white;
+  border-bottom: solid white;
 }
 .nav li {
   text-align: center;
@@ -388,7 +390,7 @@ textarea{
 
 @media only screen and (min-width: 768px){
   html{
-    max-width: 1440px;
+    max-width: 1220px;
   }
   /*ABOUT PAGE CODE */
   img {
