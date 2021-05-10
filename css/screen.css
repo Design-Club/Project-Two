@@ -169,7 +169,7 @@ figcaption,
   width: 33%;
   padding: 10px;
   height: 310px;
-  background-color:#aaa
+  background-color:#F9E4CF
 }
 
 .column2 {
@@ -177,7 +177,7 @@ figcaption,
   width: 33%;
   padding: 10px;
   height: 310px;
-  background-color:#bbb
+  background-color:#FFEEDD
 }
 
 .column3 {
@@ -185,7 +185,7 @@ figcaption,
   width: 33%;
   padding: 10px;
   height: 310px;
-  background-color:#ccc
+  background-color:#FFF9F3
 }
 
 /* Clear floats after the columns */
