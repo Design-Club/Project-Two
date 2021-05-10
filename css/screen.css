@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Playfair+Display&display=swap');
 
-/* Adobe Color Wheel below */
-/* https://color.adobe.com/create/color-wheel */
+
+/* Paletton Color Scheme Below */
+/* https://paletton.com/#uid=10y0u0k7Vu+1uRw4gFocmqnhqlS */
+
 
 html {
   line-height: 1.618em;
-  font-family: 'Times New Roman', serif;
+  font-family: Georgia, serif;
   font-size: 18px;
   padding: 30px;
   /*max-width:1440px;*/
@@ -101,12 +103,13 @@ figcaption,
 }
 
 .button {
-  font-family: Georgia, Lora, serif;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
+  font-weight: bold;
   padding: 0.4em;
   width: 7.2em;
   border: none;
-  background-color: #BEBEBE;
+  background-color: #D2A981;
   color: #000000;
 }
 .center {
@@ -266,7 +269,6 @@ textarea{
   padding-left: 3px;
   /*width: 305px;*/
   width: 95%;
-  
 }
 
 #submitId{
@@ -325,7 +327,6 @@ textarea{
     padding-top: 2.5em;
     padding-bottom: 5em;
   }
-  
   /* About code */
   img {
     max-width: 100%;
@@ -334,7 +335,7 @@ textarea{
     padding-top: 2em;
   }
   /*About code end */
-  
+
   /* CONTACT PAGE CODE */
   #contactP{
     line-height: 1em;
@@ -346,7 +347,7 @@ textarea{
     text-align: center;
     height: 300px;
   }
-  
+
   #inputArea ul {
     height:81%;
   }
@@ -363,7 +364,7 @@ textarea{
   textarea{
     width:346px;
   }
-  
+
   #pageFooter {
     border-top: 2px solid;
     visibility: visible;
@@ -372,9 +373,9 @@ textarea{
     padding:10px;
     display: inline-block;
     text-align:left;
-    
+
   }
-  
+
   #pageFooter table{
     margin-left: auto;
     margin-right: auto;
@@ -391,7 +392,8 @@ textarea{
     color: black;
     font-size: 0.9em;
     color: #403830;
-  } 
+  }
+
 
   #colName {
     font-weight: bold;
@@ -415,8 +417,12 @@ textarea{
   .members {
     display: flex;
   }
+  .desc, figcaption {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
   /* ABOUT PAGE ENDS */
-  
+
   /* CONTACT PAGE CODE */
   form{
     text-align:left;
@@ -444,7 +450,7 @@ textarea{
     border: 2px ;
     border-style:groove;
   }
-  
+
   #inputArea ul{
     padding-bottom: 0px;
   }
@@ -456,7 +462,7 @@ textarea{
   #inputArea li input{
     width: 100%;
     max-width: 20em;
-    
+
   }
 
   textArea{
@@ -471,7 +477,8 @@ textarea{
   #submitId {
     width: 200px;
   }
-  
+
+
   #pageFooter th{
     padding: 0 8vw;
   }
