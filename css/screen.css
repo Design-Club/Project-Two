@@ -119,11 +119,6 @@ figcaption,
 }
 
 /* Homepage CSS Code Starts */
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  display: block
-}
 
 .index {
   text-align: left;
@@ -483,6 +478,6 @@ textarea{
   #pageFooter th{
     padding: 0 8vw;
   }
-  
+
   /* END CONTACT PAGE CODE */
 }
