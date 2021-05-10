@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Playfair+Display&display=swap');
 
+
 /* Paletton Color Scheme Below */
 /* https://paletton.com/#uid=10y0u0k7Vu+1uRw4gFocmqnhqlS */
+
 
 html {
   line-height: 1.618em;
@@ -267,7 +269,6 @@ textarea{
   padding-left: 3px;
   /*width: 305px;*/
   width: 95%;
-
 }
 
 #submitId{
@@ -326,7 +327,6 @@ textarea{
     padding-top: 2.5em;
     padding-bottom: 5em;
   }
-
   /* About code */
   img {
     max-width: 100%;
@@ -393,6 +393,7 @@ textarea{
     font-size: 0.9em;
     color: #403830;
   }
+
 
   #colName {
     font-weight: bold;
@@ -477,9 +478,10 @@ textarea{
     width: 200px;
   }
 
+
   #pageFooter th{
     padding: 0 8vw;
   }
-
+  
   /* END CONTACT PAGE CODE */
 }
