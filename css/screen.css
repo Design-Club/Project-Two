@@ -114,7 +114,6 @@ figcaption,
 }
 .center {
   display: flex;
-  justify-content: center;
   padding-bottom: 35px;
 }
 
