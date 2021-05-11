@@ -274,7 +274,8 @@ textarea{
   color: #F7D8BA;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  border-style: groove #6B5E41;
+  border-style: solid solid solid solid;
+  border-color: white grey grey white;
   border-radius: 6px;
   box-shadow: 2px 2px 2px;
 }
