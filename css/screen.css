@@ -150,8 +150,8 @@ figcaption,
 /* Slideshow code */
 #slide {
   position: absolute;
-  animation: round 16s infinite;
-  opacity: 0;
+  /* animation: round 16s infinite; */
+  /* opacity: 0; */
 }
 
 @keyframes round {
