@@ -148,7 +148,7 @@ figcaption,
 }
 
 /* Slideshow code */
-.slide {
+#slide {
   position: absolute;
   animation: round 16s infinite;
   opacity: 0;
